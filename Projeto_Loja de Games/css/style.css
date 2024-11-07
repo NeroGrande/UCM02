@@ -1,0 +1,39 @@
+body {
+    background-color: #6495ED ;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* formatação em dois tags */ 
+header, footer {
+    background-color: #2a136b;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* configurando 3 tags (header, nav, a */
+header nav a{
+    color: #00FFFF;
+    margin: 10px;
+    text-decoration: none;
+}
+
+header hav a:hover{
+    color: #B22222;
+    text-decoration: underline;
+}
+
+.galeria img { 
+    margin: 10px;
+    border: 2px solid rgb(255, 238, 0);
+    width: 200px;
+    /*Sombra suave*/
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+
+.galeria img:hover {
+    /*aumenta a imagem em 10%*/
+    transform: scale(1.1);
+}
